@@ -13,7 +13,7 @@ html {
 #home {
     height: 100vh;
     width: 100%;
-    background-image: url('img/bg-masthead.jpg');
+    background-image: url('bg-masthead.jpg');
     background-position: center center;
     background-size: cover;
 }
