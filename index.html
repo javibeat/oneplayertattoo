@@ -14,7 +14,8 @@
         }
         .container {
             background-image: url('estudioone1.jpg');
-            height: 100vh;
+            width: auto;
+            height: auto;
             background-position: center center;
             display: flex;
             flex-direction: column;
@@ -47,6 +48,12 @@
 
         
         @media screen and (max-width: 600px) {
+
+        .container {
+            width: auto;
+            height: 100vh; 
+        }
+        
         h1 {
             font-size: 1.3em;
         }
